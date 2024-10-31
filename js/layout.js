@@ -1,0 +1,213 @@
+$item = $('#wrap')
+
+$('.wide-style').on('click',function(){
+   $item.addClass('wide'); 
+      $item.removeClass('boxed');
+      $item.removeClass('framed');
+      $item.removeClass('rounded');
+});
+$('.boxed-style').on('click',function(){
+   $item.addClass('boxed'); 
+      $item.removeClass('wide');
+      $item.removeClass('framed');
+      $item.removeClass('rounded');
+   
+});
+$('.framed-style').on('click',function(){
+   $item.addClass('framed'); 
+      $item.removeClass('wide');
+   $item.removeClass('boxed');
+   $item.removeClass('rounded');
+});
+$('.rounded-style').on('click',function(){
+   $item.addClass('rounded'); 
+      $item.removeClass('wide');
+   $item.removeClass('boxed');
+   $item.removeClass('framed');
+});
+
+$item1 = $('body')
+
+$('.bg-img-1').on('click',function(){
+   $item1.addClass('bg-1'); 
+      $item1.removeClass('bg-2');
+      $item1.removeClass('bg-3');
+      $item1.removeClass('bg-4');
+});
+
+$('.bg-img-2').on('click',function(){
+   $item1.addClass('bg-2'); 
+      $item1.removeClass('bg-1');
+      $item1.removeClass('bg-3');
+      $item1.removeClass('bg-4');
+});
+
+$('.bg-img-3').on('click',function(){
+   $item1.addClass('bg-3'); 
+      $item1.removeClass('bg-1');
+      $item1.removeClass('bg-2');
+      $item1.removeClass('bg-4');
+});
+
+$('.bg-img-4').on('click',function(){
+   $item1.addClass('bg-4'); 
+      $item1.removeClass('bg-1');
+      $item1.removeClass('bg-2');
+      $item1.removeClass('bg-3');
+});
+
+ 
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=1]').click(function(){
+          $item1.addClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-pt-sans');
+          $item1.removeClass('hr-droid-serif');
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=2]').click(function(){
+          $item1.addClass('hr-open-sans');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-pt-sans');
+          $item1.removeClass('hr-droid-serif');
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=3]').click(function(){
+          $item1.addClass('hr-lato');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-pt-sans');
+          $item1.removeClass('hr-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=4]').click(function(){
+          $item1.addClass('hr-raleway');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-pt-sans');
+          $item1.removeClass('hr-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=5]').click(function(){
+          $item1.addClass('hr-source-sans-pro');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-pt-sans');
+          $item1.removeClass('hr-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=6]').click(function(){
+          $item1.addClass('hr-pt-sans');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=7]').click(function(){
+          $item1.addClass('hr-droid-serif');
+          $item1.removeClass('hr-oswald');
+          $item1.removeClass('hr-open-sans');
+          $item1.removeClass('hr-lato');
+          $item1.removeClass('hr-raleway');
+          $item1.removeClass('hr-source-sans-pro');
+          $item1.removeClass('hr-pt-sans');
+        });
+      }));
+       $('.selectify_focus').click($(function(){
+        $('div[data-id=8]').click(function(){
+          $item1.addClass('bg-open-sans');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-pt-sans');
+          $item1.removeClass('bg-droid-serif');
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=9]').click(function(){
+          $item1.addClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-pt-sans');
+          $item1.removeClass('bg-droid-serif');
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=10]').click(function(){
+          $item1.addClass('bg-lato');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-pt-sans');
+          $item1.removeClass('bg-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=11]').click(function(){
+          $item1.addClass('bg-raleway');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-pt-sans');
+          $item1.removeClass('bg-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=12]').click(function(){
+          $item1.addClass('bg-source-sans-pro');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-pt-sans');
+          $item1.removeClass('bg-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=13]').click(function(){
+          $item1.addClass('bg-pt-sans');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-droid-serif')
+        });
+      }));
+      $('.selectify_focus').click($(function(){
+        $('div[data-id=14]').click(function(){
+          $item1.addClass('bg-droid-serif');
+          $item1.removeClass('bg-oswald');
+          $item1.removeClass('bg-open-sans');
+          $item1.removeClass('bg-lato');
+          $item1.removeClass('bg-raleway');
+          $item1.removeClass('bg-source-sans-pro');
+          $item1.removeClass('bg-pt-sans');
+        });
+      }));

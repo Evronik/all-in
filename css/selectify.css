@@ -1,0 +1,52 @@
+.selectify {
+	position: relative;
+    color: #555;
+}
+.selectify .options {
+    position: absolute;
+    z-index: 2;
+    max-height: 155px;
+    overflow-y: auto;
+}
+.selectify .header-f {
+	border: 1px solid #C7C7C7;
+    background: #fff;
+    cursor: pointer;
+	width: 150px !important;
+    padding: 0;
+}
+.selectify .header-f .icon {
+    background-image: url(../img/drop-d.svg);
+    position: absolute;
+    width: 9px;
+    height: 6px;
+    right: .8em;
+    position: absolute;
+    top: 45%;
+}
+.selectify .header-f .selected {
+    color: #525252;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+.selectify .header-f.hover .selected {
+    color: #525252;
+}
+.selectify .header-f.hover .icon {
+    border-color: #000 transparent transparent;
+}
+.selectify .option {
+    border: 1px solid #BBB;
+    cursor: pointer;
+    border-top: 0;
+    color: #525252;
+    padding: 5px 15px;
+    background: #FFF;
+	width: 150px !important;
+}
+.selectify .option.hover {
+    background: #E8E8E8;
+}
+.selectify .option.active {
+    background: #E8E8E8;
+}
